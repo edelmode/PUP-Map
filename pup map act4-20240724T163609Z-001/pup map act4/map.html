@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PUP MAP</title>
+        <link rel="icon" href="puplogo.png" type="image/x-icon">
+        <link rel="stylesheet" href="map.css">
+    </head>
+    <body background="bg.jpg" style="background-size: cover;">
+        
+        <header>
+            <img id="logo1" src="puplogo.png" alt="Logo">
+            <img id="logo2" src="puplogo.png" alt="Logo">
+            <h1>Polytechnic University of the Philippines</h1>
+
+        </header>
+            <h2>Hover over an area</h2>
+
+            <div class="image-container">
+              <img id="imap" src="map.png" alt="Image" usemap="#image-map">
+              
+              <div id="modal1" class="modal">
+                <img src="chapel.jpg" alt="chapel">
+                <p> <Strong>PUP Chapel</Strong> <br><br>
+                  The ecumenical chapel (known as the Interfaith Chapel) is a nondenominational Christian church located inside the PUP - A. Mabini Campus</p>
+              </div>
+              <div id="modal2" class="modal">
+                <img src="swimmingpool.jpg" alt="swimmingpool">
+                <p><Strong>PUP Swimmingpool</Strong> <br><br>
+                  An olympic-sized swimming pool that is capable of handling several swimming classes and student athlete activities simultaneously. University Facility.</p>
+              </div>
+              <div id="modal3" class="modal">
+                <img src="oval.jpg" alt="oval">
+                <p><Strong>PUP Oval</Strong> <br><br>
+                  A circular field that can serve as softball, soccer, Track and Field usually, and football fields for students.</p>
+              </div>
+              <div id="modal4" class="modal">
+                <img src="catwalk.jpg" alt="catwalk">
+                <p><Strong>PUP Catwalk</Strong> <br><br>
+                A side after entering the main gate that looks like a runway.</p>
+              </div>
+              <div id="modal5" class="modal">
+                <img src="gym.jpg" alt="gym">
+                <p><Strong>PUP Gymnasium</Strong> <br><br>
+                  The University Gymnasium serves as the training ground for the student athletes that participate in the intercollegiate sports program.</p>
+              </div>
+              <div id="modal6" class="modal">
+                <img src="lagoon.jpg" alt="lagoon">
+                <p><Strong>PUP Lagoon</Strong> <br><br>
+                  A relaxing area where you can catch some sleep. Where lovers stay upon the strike of darkness! </p>
+              </div>
+              <div id="modal7" class="modal">
+                <img src="maingate.jpg" alt="main gate">
+                <p><Strong>PUP Main Gate</Strong> <br><br> 
+                  The main Entrance of the main campus of PUP.</p>
+              </div>
+              <div id="modal8" class="modal">
+                <img src="ninoylibrary.jpg" alt="library">
+                <p><Strong>Ninoy Aquino Library and Learning Resources Center</Strong> <br><br>
+                  The Ninoy Aquino Library and Learning Resources Center composed of libraries providing services to the PUP System.</p>
+              </div>
+              <div id="modal9" class="modal">
+                <img src="grandstand.jpg" alt="grandsatnd">
+                <p><Strong>PUP Grandstand</Strong> <br><br>
+                PUP Grandstand is a Stage located near oval.</p>
+              </div>
+              <div id="modal10" class="modal">
+                <img src="pupobslick.jpg" alt="PUP Obelisk">
+                <p><Strong>PUP Obelisk</Strong> <br><br>
+                  It stands for the perfection of the human person and the search for truth. </p>
+              </div>
+            </div>
+
+            <map name="image-map">
+                <area alt="chapel"  coords="278,336,44" shape="circle"  onmouseover="document.getElementById('modal1').style.display='block'">
+                <area alt="swimmingpool" coords="368,92,294,41" shape="rect" onmouseover="document.getElementById('modal2').style.display='block'">
+                <area alt="oval" coords="414,224,432,220,453,220,476,226,487,236,493,244,498,257,500,269,500,283,494,302,488,313,482,321,473,332,464,347,455,360,447,371,
+                434,380,418,385,403,386,387,380,372,375,362,362,357,352,352,337,339,349,328,343" shape="poly"  onmouseover="document.getElementById('modal3').style.display='block'">
+                <area alt="catwalk" coords="316,121,324,114,331,129,343,150,352,165,361,175,370,173,398,172,420,
+                174,473,176,489,176,500,178,476,181,461,181,443,182,420,183,397,181,378,182,366,181,353,180" shape="poly"   onmouseover="document.getElementById('modal4').style.display='block'">
+                <area alt="gym" coords="373,46,476,95" shape="rect"  onmouseover="document.getElementById('modal5').style.display='block'">
+                <area alt="lagoon" coords="189,218,212,218,237,218,254,212,262,199,261,190,256,181,251,171,250,160,250,149,248,140,242,128,233,128,
+                230,136,230,146,230,154,230,165,227,171,224,178,218,186,215,198,203,209" shape="poly"   onmouseover="document.getElementById('modal6').style.display='block'">
+                <area alt="maingate" coords="488,193,525,181" shape="rect"  onmouseover="document.getElementById('modal7').style.display='block'">
+                <area alt="library"coords="149,95,170,104,180,101,165,47,194,42,205,89,245,77,254,100,209,
+                115,222,162,197,169,186,119,177,119,160,134" shape="poly"   onmouseover="document.getElementById('modal8').style.display='block'">
+                <area alt="grandstand" coords="349,286,359,296,396,243,383,234" shape="poly"   onmouseover="document.getElementById('modal9').style.display='block'">
+                <area alt="obslink" coords="321,188,15" shape="circle"  onmouseover="document.getElementById('modal10').style.display='block'">
+            </map>
+            
+            
+            
+            
+
+           
+        </div>
+
+
+
+        <script src="map.js"></script>
+    </body>
+</html> 
+
